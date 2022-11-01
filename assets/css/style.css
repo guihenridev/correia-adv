@@ -73,6 +73,9 @@ header{
 .mobile-menu-icon{
     display: none;
 }
+.mobile-menu{
+    z-index: -1;
+}
 
 .title-header{
     width: 40%;
