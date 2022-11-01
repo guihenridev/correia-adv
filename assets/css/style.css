@@ -8,6 +8,9 @@
 html{
     scroll-behavior: smooth;
 }
+body{
+    overflow: hidden;
+}
 .container{
     padding: 0 5rem;
 }
@@ -70,9 +73,6 @@ header{
     background: #e1a948;
 }
 .mobile-menu-icon{
-    display: none;
-}
-.mobile-menu{
     display: none;
 }
 
