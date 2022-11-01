@@ -1,0 +1,137 @@
+@media only screen and (max-width: 1200px) {
+    .nav-link {
+        font-size: .8rem;
+    }  
+}
+@media only screen and (max-width: 1000px) {
+    .bg-areas{
+        width:85%;
+    }
+    .nav-link {
+        font-size: .6rem;
+    }  
+    .title-header{
+        width: 60%;
+      }
+}
+@media only screen and (max-width: 900px) {
+    .areas {
+        height: inherit;
+    }
+}
+  
+@media only screen and (max-width: 780px) {
+    .container{
+        padding: 0 2rem;
+    }
+    header.container{
+        height: inherit;
+        padding-bottom: 2rem;
+        margin-bottom: 2rem;
+
+    }
+    header h1{
+        font-size: 1.5rem;
+    }
+    .title-header button{
+        width: 38%;
+        padding: 0.4rem;
+        font-size: .7rem;
+    }
+    .logo img{
+        width: 100px;
+    }
+    footer{
+        height: inherit;
+    }
+    footer img {
+        width: 120px;
+    }
+
+}
+  
+@media only screen and (max-width:670px) {
+      header.container{
+        background-size: 212% auto;
+        background-position: 85% 0px;
+        height: 480px;
+        
+      }
+      .nav-list{
+          display: none;
+      }
+      
+      .mobile-menu-icon{
+        display: block;
+        
+      }
+      .mobile-menu-icon button{
+          border: none;
+          cursor: pointer;
+          background: none;
+          color: #fff;
+          font-size: 1.5rem;
+      }
+      .mobile-menu ul{
+          text-align: center;
+          padding: 0;
+      }
+      .mobile-menu .nav-item{
+        display: block;
+        padding-top: 0.5rem;
+        text-align: end;
+      }
+      
+      .mobile-menu{
+        position: absolute;
+        right: -108px;
+        transition: all 0.5s ease;
+      }
+      .mobile-menu .login-button button{
+          width: 100%;
+      }
+      .open{
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 60px;
+      }
+      .nav-item{
+          margin: 0;
+      }
+      .areas-content {
+        grid-template-columns: 1fr 1fr;
+      }
+      .office{
+        height: inherit;
+
+      }
+      .news-letter input {
+        width: 11rem;
+        margin-top: 1rem;       
+      }
+      .footer-content{
+        flex-wrap: wrap;
+      }
+
+  
+}
+@media only screen and (max-width:520px){
+    
+    .title-header {
+        width: 100%;
+    }
+    .areas-content {
+        grid-template-columns: 1fr;
+      }
+      .title-header h1{
+        font-size: 1rem;
+      }
+      .news-letter div{
+        display: flex;
+        flex-direction: column;
+      }
+      .news-letter input{
+        
+      }
+}

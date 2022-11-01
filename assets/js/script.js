@@ -6,6 +6,8 @@ function menuShow() {
     iconMenu.classList.toggle('fa-bars');
     iconMenu.classList.toggle('fa-xmark');
 
+    
+
     // if(menuMobile.classList.contains('open')){
     //     menuMobile.classList.remove('open');
         
