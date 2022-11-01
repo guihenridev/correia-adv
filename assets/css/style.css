@@ -8,9 +8,7 @@
 html{
     scroll-behavior: smooth;
 }
-body{
-    overflow: hidden;
-}
+
 .container{
     padding: 0 5rem;
 }
