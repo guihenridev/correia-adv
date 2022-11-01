@@ -18,7 +18,7 @@ h1, h2, h3, h4{
 /*Header*/
 
 header{
-    height: 500px;
+    height: 690px;
     background-image: url('../img/bg-header.webp');
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -29,6 +29,7 @@ header{
     display: flex;
     justify-content: space-between;
     padding-top: 30px;
+    align-items: center;
     
 }
 .logo img{
