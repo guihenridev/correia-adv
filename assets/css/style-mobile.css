@@ -110,6 +110,10 @@
       .areas-content {
         grid-template-columns: 1fr 1fr;
       }
+      .bg-areas{
+        height: 155%;
+        background-repeat: repeat;
+      }
       .office{
         height: inherit;
 

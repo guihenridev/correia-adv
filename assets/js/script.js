@@ -18,3 +18,10 @@ function menuShow() {
     //     iconMenu.classList.add("fa-xmark");
     // }
 }
+window.sr = ScrollReveal();
+sr.reveal('.intervalCardReveal', {
+  duration:1500, 
+  interval: 300, 
+  origin: "top",
+  distance: "50px"});
+sr.reveal('.titleReveal', {duration: 2000, origin:"top", distance:"60px"});
